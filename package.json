@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-vuetify-express-mysql",
+  "version": "1.0.0",
+  "description": "nuxt-vuetify-express-mysql",
+  "author": "Fernando Gutiérrez R. <fernandogutir@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "backpack dev",
+    "build": "nuxt build && backpack build",
+    "start": "cross-env NODE_ENV=production node build/main.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "backpack-core": "^0.7.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "nuxt": "^1.0.0",
+    "vuetify": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.1.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
+  }
+}
