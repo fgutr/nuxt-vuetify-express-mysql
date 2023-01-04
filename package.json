@@ -12,12 +12,12 @@
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
-    "backpack-core": "^0.7.0",
+    "backpack-core": "^0.8.4",
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
     "morgan": "^1.9.1",
     "mysql": "^2.15.0",
-    "nuxt": "^1.0.0",
+    "nuxt": "^3.0.0",
     "vuetify": "^1.0.0"
   },
   "devDependencies": {
